@@ -7,7 +7,7 @@ from telegram.ext import (
     filters
 )
 
-TOKEN = "ТУТ_ТВІЙ_ТОКЕН"
+TOKEN = "8528132510:AAFpuJBBzRYvzJzFRktwoOElHdDedQljr0U"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Привіт! Я працюю 🤖")
